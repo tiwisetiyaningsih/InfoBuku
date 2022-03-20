@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crudfirebasekita">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logoapk"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logoapk_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CRUDFirebaseKita">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Show" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.InfoBuku_ss">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

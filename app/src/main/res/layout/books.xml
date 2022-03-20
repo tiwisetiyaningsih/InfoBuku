@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textJudul"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="40dp"/>
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="TextView"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/BtnEdit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="275dp"
+            app:srcCompat="@drawable/ic_edit_24" />
+        <ImageButton
+            android:id="@+id/BtnDelete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="1dp"
+            app:srcCompat="@drawable/ic_delete_24" />
+    </LinearLayout>
+
+</LinearLayout>
